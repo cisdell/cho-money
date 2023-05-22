@@ -31,10 +31,7 @@ function App() {
               path="/login"
               element={user ? <Navigate to="/home" /> : <Login />}
             />
-
             <Route path="/redirect" element={<Navigate to="/home" />} />
-
-            {/* 131 */}
           </Routes>
         </BrowserRouter>
       )}
