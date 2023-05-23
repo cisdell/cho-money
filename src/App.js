@@ -25,13 +25,13 @@ function App() {
             />
             <Route
               path="/signup"
-              element={user ? <Navigate to="/home" /> : <Signup />}
+              element={user ? <Navigate to="/" /> : <Signup />}
             />
             <Route
               path="/login"
-              element={user ? <Navigate to="/home" /> : <Login />}
+              element={user ? <Navigate to="/" /> : <Login />}
             />
-            <Route path="/redirect" element={<Navigate to="/home" />} />
+            <Route path="/redirect" element={<Navigate to="/" />} />
           </Routes>
         </BrowserRouter>
       )}
