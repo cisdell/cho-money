@@ -4,7 +4,6 @@ import { useCollection } from "../../hooks/useCollection";
 import styles from "./Home.module.css";
 import React from "react";
 //componentns
-import Navbar from "../../../src/components/Navbar.js";
 import TransactionForm from "./TransactionForm";
 import TransactionList from "./TransactionList";
 
