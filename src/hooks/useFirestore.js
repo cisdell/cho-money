@@ -75,7 +75,7 @@ export const useFirestore = (collection) => {
       dispatchIfNotCancelled({ type: 'DELETED_DOCUMENT' })
     }
     catch (err) {
-      dispatchIfNotCancelled({ type: 'ERROR', payload: err })
+      dispatchIfNotCancelled({ type: 'ERROR', payload: "could not delete" +  err })
     }
   }
 
